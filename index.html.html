@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>IRFAN IS DEVOPS ENGINEER | AWS CLOUD DEPLOYMENT</title>
+  <style>
+    body {
+      color: white;
+      background-color: #000000;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      margin: 0;
+      padding: 0;
+    }
+    
+    h1 {
+      font-size: 500%;
+      font-weight: normal;
+      margin-bottom: 0;
+    }
+    
+    h2 {
+      font-size: 200%;
+      font-weight: normal;
+      margin-bottom: 0;
+      transform: scale(1);
+      animation: growIn 3s;
+    }
+
+    h3 {
+      font-size: 200%;
+      white-space: nowrap;
+      animation: flash 2s infinite;
+    }
+
+    p {
+      color: white;
+    }
+
+    p a {
+      color: white;
+      text-decoration: none;
+    }
+
+    /* Grow-in text animation */
+    @keyframes growIn {
+      from {
+        transform: scale(0);
+      }
+      to {
+        transform: scale(1);
+      }
+    }
+
+    /* Flashing and growing in text animation */
+    @keyframes flashAndGrow {
+      0%, 50%, 100% {
+        opacity: 1;
+        transform: scale(1);
+      }
+      25%, 75% {
+        opacity: 0;
+        transform: scale(1.2);
+      }
+    }
+
+    /* Flashing text animation */
+    @keyframes flash {
+      0%, 50%, 100% {
+        opacity: 1;
+      }
+      25%, 75% {
+        opacity: 0;
+      }
+    }
+
+    /* Apply flashing and growing in animation to the completion line */
+    .completion-line {
+      position: fixed;
+      top: 80%;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      font-size: 24px;
+      animation: flashAndGrow 2s infinite;
+    }
+
+    /* Video container */
+    .video-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+
+    /* Video */
+    .video-container video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <div align="center">
+    <img src="https://s3.ap-south-1.amazonaws.com/www.basava.com/aar_logo_final.png" style="max-width: 20%;">
+    <h1>Congratulations!!!</h1>
+    <h2>Welcome to SABAIR'S TECHIE HORIZON</h2>
+    <h3>This application was deployed by IRFAN MOHAMMAD.</h3>
+    <p>For next steps, read the <a href="http://aws.amazon.com/documentation/codedeploy">AWS CodeDeploy Documentation</a>.</p>
+
+    <!-- Video container -->
+    <div class="video-container">
+      <video autoplay loop>
+        <source src="https://raw.githubusercontent.com/irfdevops/AWS_CODE-DEPLOYMENT_GITHUB/main/zinda.webm" type="video/webm">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <!-- Task completion line -->
+    <p class="completion-line">Task completed NADIM BHAI</p>
+  </div>
+</body>
+</html>
